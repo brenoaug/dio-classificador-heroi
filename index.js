@@ -1,5 +1,5 @@
 let nickname = "Shaolin matador de porco";
-let exp = 9000;
+let exp = 11000;
 
 
 if (exp <= 1000){
@@ -16,7 +16,7 @@ if (exp <= 1000){
   console.log("O jogador " + nickname + " tem " + exp + " de XP e é nivel Ascendente");
 }else if (exp > 9000 && exp <= 10000){
   console.log("O jogador " + nickname + " tem " + exp + " de XP e é nivel Imortal");
-}else if(exp > 10000){
+}else{
   console.log("O jogador " + nickname + " tem " + exp + " de XP e é nivel Radiante");
 }
 
